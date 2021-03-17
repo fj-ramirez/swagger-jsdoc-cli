@@ -1,6 +1,5 @@
 import { promises as fs } from 'fs';
-import { pathToFileURL } from 'url';
-import { loadDefinition } from './utils.js';
+import { loadDefinition } from '../utils.js';
 
 import swaggerJsdoc from 'swagger-jsdoc';
 
